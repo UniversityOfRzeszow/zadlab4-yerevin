@@ -95,7 +95,7 @@ Jakie wyniki zostaną wyświetlone na konsoli?
 
 ### Ważne (przeczytać !!!):
 
-* Konstruktory służą do tworzenia obiektów. W języku Java konstruktor posiada następujące cechy: jego nazwa jest identyczna z nazwą klasy, w której się znajduje; może posiadać parametry, którymi najczęściej ustawia wartości pól w klasie; w odróżnieniu od metod nie zwraca żadnej wartości. Jeśli programista nie zdefiniuje, żadnego konstruktora wewnątrz klasy, kompilator utworzy w trakcie kompilacji konstruktor domniemany dla tej klasy.  Będzie on ekwiwalentem konstruktora pustego, z tą różnicą, że nie będzie on obecny w kodzie programu. Java tworzy konstruktory domyślne tylko w przypadku braku jakiegokolwiek konstruktora w kodzie klasy. 
+* Konstruktory służą do tworzenia obiektów. W języku Java konstruktor posiada następujące cechy: jego nazwa jest identyczna z nazwą klasy, w której się znajduje; może posiadać parametry, którymi najczęściej ustawia wartości pól w klasie; w odróżnieniu od metod nie zwraca żadnej wartości. Jeśli programista nie zdefiniuje, żadnego konstruktora wewnątrz klasy, kompilator utworzy w trakcie kompilacji konstruktor domniemany dla tej klasy. Będzie on ekwiwalentem konstruktora pustego, z tą różnicą, że nie będzie on obecny w kodzie programu. Java tworzy konstruktory domyślne tylko w przypadku braku jakiegokolwiek konstruktora w kodzie klasy. 
 
 * Konstruktory i metody w języku Java podlegają mechanizmowi przeciążenia (ang. overload). Oznacza to, że mogą występować w różnych wersjach (pod różnymi postaciami). Metody przeciążane cechują się tą samą nazwą. Różnić się natomiast mogą ilością argumentów, typem argumentów, typem zwracanym i wnętrzem metody (kodem programu wewnątrz metody). Podobnie jest z konstruktorami, przy czym te z definicji mają tę samą nazwę i dodatkowo w przeciwieństwie do metod nie zwracają wartości. Jeśli zatem konstruktory nie zwracają wartości, nie można ich przeciążać po zwracanym typie. Solidarnie do nich również i metody nie mogą być przeciążane po zwracanym typie, co jednak nie oznacza, że wszystkie one muszą mieć ten sam typ zwracany. Konkludując, można stwierdzić, że wariantywność przeciążanych metod objawia się poprzez różnice w ilości i typie argumentów przyjmowanych przez metodę czy konstruktor. Mechanizm przeciążania należy do zjawisk polimorfizmu w językach programowania.
 
@@ -107,6 +107,7 @@ Utwórz klasę (zawierającą metode `main`), która umożliwia wprowadzanie dan
 
 ## Zadanie 4
 W nowym pakiecie (np. `pl.edu.ur.polab4.obliczanieFigur`) utwórz klasy opisujące następujące figury geometryczne: `Koło`, `Kwadrat`, `Prostokąt`, `Sześcian`, `Prostopadłościan`, `Kula`, `Stożek`. Dla każdej klasy dobierz odpowiednie pola. Utwórz także metody obliczające pola figur, obwody (dla figur płaskich), oraz objętości (dla figur przestrzennych). Dla każdej klasy utwórz metodę wyświetlającą dane dotyczące figury tj. nazwa, parametry, wartość pola i obwodu lub objętości. Utwórz obiekty tych figur i pokaż wyniki obliczeń przy użyciu funkcji wyświetlającej dane.
+
 *Utwórz kalkulator dla figur geometrycznych tj. odpowiednie menu pozwalające na: wybór figury geometrycznej oraz wprowadzanie parametrów dla tej figury z konsoli. Następnie wyświetl wyniki przy użyciu metody wyświetlającej dane. 
 
 ## Zadanie 5
